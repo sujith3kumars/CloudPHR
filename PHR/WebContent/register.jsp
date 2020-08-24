@@ -97,7 +97,7 @@
 						<div class="row justify-content-start pb-3">
 							<div class="col-md-12 heading-section ftco-animate p-4 p-lg-5">
 								<h2 class="mb-4">
-									<span>Register</span> (Doctors Only)
+									<u><span>Register</span> (Doctors Only)</u>
 								</h2>
 								<p>You can create a new account here.</p>
 
