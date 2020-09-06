@@ -1,31 +1,27 @@
 package com.phr.mobile;
 
-import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class SendMessage
 {
-   public static String SMS_GATEWAY_API_KEY = "8iCEUKf4no8-QTFFscIIcpJ7lKP7OzGjW8Cxvdzg7n";
-//   public static String SMS_GATEWAY_API_KEY = "8iC";
-
    public static String sendSms(String number, String msg)
    {
       try
       {
          // Construct data
-         String apiKey = "apikey=" + SMS_GATEWAY_API_KEY;
-         String message = "&message=" + msg;
-         String sender = "&sender=" + "TXTLCL";
-         String numbers = "&numbers=" + number;
-
-         // Send data
+	 // Send data
+         String apiKey = Qk9D8foVvN4WsIEGuOTCxJAHK7BnZLbpSz2q0yYP1Rg5a3lXUt2jIfcx4LE1A0GRlKsJ8BuzbiCPUMQ5
          HttpURLConnection conn = (HttpURLConnection) new URL("https://api.textlocal.in/send/?").openConnection();
-         String data = apiKey + numbers + message + sender;
+         String data = "sender_id=FSTSMS&message=" + msg + "&language=english&route=p&numbers=" + number;
          conn.setDoOutput(true);
          conn.setRequestMethod("POST");
+	 conn.setRequestProperty("authorization", apiKey);
+	 conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
          conn.setRequestProperty("Content-Length", Integer.toString(data.length()));
+	 conn.setRequestProperty("User-Agent",
+			"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36");
          conn.getOutputStream().write(data.getBytes("UTF-8"));
          final BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
          final StringBuffer stringBuffer = new StringBuffer();
