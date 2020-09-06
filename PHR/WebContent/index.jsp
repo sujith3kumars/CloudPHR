@@ -45,7 +45,7 @@
 								class="icon mr-2 d-flex justify-content-center align-items-center">
 								<span class="icon-paper-plane"></span>
 							</div>
-							<span class="text">Final Year Project Work</span>
+							<span class="text">Xon Labs</span>
 						</div>
 						<div
 							class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
@@ -96,7 +96,7 @@
 					<div class="mt-5">
 						<span class="subheading">Welcome to SePHR</span>
 						<h1 class="mb-4">
-							We are here <br>for your Care
+							We are here <br>for your care
 						</h1>
 						<p class="mb-4">This portal is a secured way of sharing health
 							records with your patients.</p>
