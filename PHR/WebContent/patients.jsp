@@ -59,7 +59,7 @@
 								class="icon mr-2 d-flex justify-content-center align-items-center">
 								<span class="icon-paper-plane"></span>
 							</div>
-							<span class="text">Final Year Project Work</span>
+							<span class="text">XON Labs</span>
 						</div>
 					</div>
 				</div>
@@ -167,7 +167,7 @@
 													<input type=text name='email' placeholder="Email ID" class='form-control' required="required"/>
 													<br/>
 													<label>Patient Mobile</label>
-													<input type=text name='mobile' placeholder="Mobile" class='form-control' required="required"/>
+													<input type=text name='mobile' placeholder="Mobile" class='form-control' required="required" pattern="[0-9]{10}"/>
 													<br/>
 									      </div>
 									      <div class="modal-footer">
@@ -265,7 +265,7 @@
 																		<input value='<%=p.getEmail() %>' type=text name='email' placeholder="Email ID" class='form-control' required="required"/>
 																		<br/>
 																		<label>Patient Mobile</label>
-																		<input value='<%=p.getMobile() %>' type=text name='mobile' placeholder="Mobile" class='form-control' required="required"/>
+																		<input value='<%=p.getMobile() %>' type=text name='mobile' placeholder="Mobile" class='form-control' required="required" pattern="[0-9]{10}"/>
 																		<br/>
 														      </div>
 														      <div class="modal-footer">
