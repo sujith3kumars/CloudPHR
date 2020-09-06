@@ -60,7 +60,7 @@
 								class="icon mr-2 d-flex justify-content-center align-items-center">
 								<span class="icon-paper-plane"></span>
 							</div>
-							<span class="text">Final Year Project Work</span>
+							<span class="text">xon labs</span>
 						</div>
 					</div>
 				</div>
