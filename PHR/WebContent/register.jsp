@@ -45,7 +45,7 @@
 								class="icon mr-2 d-flex justify-content-center align-items-center">
 								<span class="icon-paper-plane"></span>
 							</div>
-							<span class="text">Final Year Project Work</span>
+							<span class="text">XON LABS</span>
 						</div>
 						<div
 							class="col-md-5 pr-4 d-flex topper align-items-center text-lg-right justify-content-end">
@@ -97,7 +97,7 @@
 						<div class="row justify-content-start pb-3">
 							<div class="col-md-12 heading-section ftco-animate p-4 p-lg-5">
 								<h2 class="mb-4">
-									<u></u><span>Register</span> (Doctors Only)<\u>
+									<span>Register</span> (Doctors Only)
 								</h2>
 								<p>You can create a new account here.</p>
 
