@@ -7,7 +7,7 @@ import java.net.URL;
 
 public class SendMessage
 {
-   public static String SMS_GATEWAY_API_KEY = "8iCEUKf4no8-QTFFscIIcpJ7lKP7OzGjW8Cxvdzg7n";
+   public static String SMS_GATEWAY_API_KEY = "uq8cl5CgiPjdTO7DYk9ZW3nSGER0NrMsXyzm24U6eIvJotQhBVZKXPAuT3fsgey4HLRJGjnb5QxdV9oa";
 //   public static String SMS_GATEWAY_API_KEY = "8iC";
 
    public static String sendSms(String number, String msg)
