@@ -96,7 +96,7 @@
 					<div class="mt-5">
 						<span class="subheading">Welcome to SePHR</span>
 						<h1 class="mb-4">
-							We are here <br>for your care
+							We are here <br>for your Care
 						</h1>
 						<p class="mb-4">This portal is a secured way of sharing health
 							records with your patients.</p>
