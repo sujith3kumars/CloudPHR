@@ -167,7 +167,7 @@
 													<input type=text name='email' placeholder="Email ID" class='form-control' required="required"/>
 													<br/>
 													<label>Patient Mobile</label>
-													<input type=text name='mobile' placeholder="Mobile" class='form-control' required="required"/>
+													<input type=text name='mobile' placeholder="Mobile" class='form-control' pattern="[0-9]{10} required="required"/>
 													<br/>
 									      </div>
 									      <div class="modal-footer">
