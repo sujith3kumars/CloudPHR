@@ -1,9 +1,5 @@
 package com.phr.mobile;
 
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
-import java.net.URL;
-
 public class SendMessage
 {
    public static String sendSms(String number, String msg)
